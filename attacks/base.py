@@ -1,6 +1,6 @@
 class BaseAttack():
     def __init__(self, val_MIN=-1, val_MAX=1):
-        self.name = 'wo Attack'
+        self.name = 'QT'
         self.val_MIN = val_MIN
         self.val_MAX = val_MAX
 

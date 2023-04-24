@@ -24,7 +24,7 @@ if __name__ == '__main__':
     parser.add_argument('--exp_name', type=str, required=True)
     parser.add_argument('--ckpt', type=str, default=500000)
     parser.add_argument('--batch_size', type=int, default=2)
-    parser.add_argument('--sigma', type=float, default=1)
+    parser.add_argument('--sigma', type=int, default=1)
     parser.add_argument('--t_max', type=int, default=10)
     parser.add_argument('--test_num', type=int, default=1000)
 

@@ -1,7 +1,6 @@
 import torch
 
 def message_to_vector(message, sigma):
-    assert sigma == int(sigma)
     secret_vector = torch.zeros(size=(message.shape[0], message.shape[1] // sigma))
     step = 2 / 2 ** sigma
     message_nums = torch.zeros_like(secret_vector)
@@ -12,7 +11,6 @@ def message_to_vector(message, sigma):
 
 
 def vector_to_message(secret_vector, sigma):
-    assert sigma == int(sigma)
     message = torch.zeros(size=(secret_vector.shape[0], secret_vector.shape[1] * sigma))
     step = 2 / 2 ** sigma
     secret_vector = torch.clamp(secret_vector, min=-1, max=1) + 1
