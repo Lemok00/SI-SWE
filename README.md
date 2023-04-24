@@ -1,7 +1,5 @@
 # Robust Steganography without Embedding based on Secure Container Synthesis and Iterative Message Recovery (IJCAI 2022)
 
-paper | supplementary material
-
 ## Requirements
 + One high-end NVIDIA GPU with at least 11GB of memory. We have done all testing using a NVIDIA RTX 2080Ti.
 + Python >= 3.7 and PyTorch >= 1.8.2.
