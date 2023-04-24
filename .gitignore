@@ -1,4 +1,4 @@
-experiments
+experiments/*
 results
 attacks/__pycache__
 model/*/__pycache__
